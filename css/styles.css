@@ -28,26 +28,22 @@
 	}
 	
 /*button style*/
-
-#back-to-top {
-
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-  text-align: center;
-  background-color: aqua;
-  color: #fff;
-  padding:20px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: opacity 0.2s ease-out;
-  opacity: 0;
+#backtotop{
+	position:fixed;
+	display: none;
+    right:10px;
+    bottom:10px;
+	padding: 20px;
+	background-color: #3a52b7;
+	color:#fff;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
 }
-#back-to-top:hover {
-  background-color: #fff;
-  color: #000;
-}
-#back-to-top.show {
-  opacity: 1;
+
+#backtotop:hover{
+	background-color: #fff;
+	color: #3a52b7;
+	border: 1px solid #3a52b7;
 }
