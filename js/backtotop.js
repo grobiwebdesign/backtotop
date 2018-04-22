@@ -7,8 +7,8 @@ $(document).ready(function(){
         } 
     }); 
     $('#backtotop').click(function(e){ /*scrolling animation*/
-        $("html, body").animate({ scrollTop: 0 }, 1000); 
-		e.preventDefault(); /*Keeps button from blinking when funtion is activated*/
+        e.preventDefault(); /*Keeps button from blinking when function is activated*/
+        $("html, body").animate({ scrollTop: 0 }, 500); 
         return false; 
     }); 
 });
