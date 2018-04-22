@@ -46,6 +46,6 @@
 #backtotop:hover{
 	background-color: #fff;
 	color: #3a52b7;
-	border: 1px solid #3a52b7;
+	border: 1px #3a52b7;
 	cursor: pointer;
 }
