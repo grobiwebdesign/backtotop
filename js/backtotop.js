@@ -1,4 +1,3 @@
-
 $(document).ready(function(){ 
     $(window).scroll(function(){ /*set height*/
         if ($(this).scrollTop() > 100) { /*identify class, same as on HTML file*/
@@ -7,9 +6,9 @@ $(document).ready(function(){
             $('#backtotop').fadeOut(); 
         } 
     }); 
-    $('#backtotop').click(function(){ /*scrolling animation*/
+    $('#backtotop').click(function(e){ /*scrolling animation*/
         $("html, body").animate({ scrollTop: 0 }, 1000); 
-		/*e.preventDefault(); Keeps button from blinking when funtion is activated*/
+		e.preventDefault(); /*Keeps button from blinking when funtion is activated*/
         return false; 
     }); 
 });
