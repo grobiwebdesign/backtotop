@@ -9,7 +9,7 @@ $(document).ready(function(){
     }); 
     $('#backtotop').click(function(){ /*scrolling animation*/
         $("html, body").animate({ scrollTop: 0 }, 1000); 
-		e.preventDefault(); /*Keeps button from blinking when funtion is activated*/
+		/*e.preventDefault(); Keeps button from blinking when funtion is activated*/
         return false; 
     }); 
 });
